@@ -73,7 +73,7 @@
   </head>   
   <body>  
   <header> 
-      <?php include "../include/header.php";?>
+      <?php include "../main/header.php";?>
   </header> 
   <section> 
       <div id="main_img_bar"> 
@@ -139,7 +139,7 @@
       </div> <!-- main_content -->    
   </section>  
   <footer> 
-      <?php include "../include/footer.php";?> 
+      <?php include "../main/footer.php";?> 
   </footer> 
   </body> 
 </html>         
