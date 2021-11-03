@@ -3,8 +3,8 @@
   <head>  
   <meta charset="utf-8"> 
   <title>PHP 프로그래밍</title> 
-  <link rel="stylesheet" type="text/css" href="../css/common.css"> 
-  <link rel="stylesheet" type="text/css" href="../css/member.css"> 
+  <link rel="stylesheet" type="text/css" href="../main/css/common.css"> 
+  <link rel="stylesheet" type="text/css" href="../main/css/member.css"> 
   <script> 
   function check_input() 
   {
@@ -77,7 +77,7 @@
   </header> 
   <section> 
       <div id="main_img_bar"> 
-          <img src="../img/main_img.png"> 
+          <img src="../main/img/main_img.png"> 
       </div>   
       <div id="main_content"> 
           <div id="join_box"> 
@@ -90,7 +90,7 @@
                           <input type="text" name="id"> 
                       </div>  
                       <div class="col3"> 
-                          <a href="#"><img src="../img/check_id.gif" onclick="check_id()"></a> 
+                          <a href="#"><img src="../main/img/check_id.gif" onclick="check_id()"></a> 
                       </div>  
                   </div> 
                   <div class="clear"></div>
@@ -129,9 +129,9 @@
 
                   <div class="bottom_line"> </div> 
                   <div class="buttons"> 
-                      <img style="cursor:pointer" src="../img/button_save.gif"
+                      <img style="cursor:pointer" src="../main/img/button_save.gif"
                           onclick="check_input()">&nbsp; 
-                      <img id="reset_button" style="cursor:pointer" src="../img/button_reset.gif" 
+                      <img id="reset_button" style="cursor:pointer" src="../main/img/button_reset.gif" 
                           onclick="reset_form()"> 
                   </div> 
               </form> 
