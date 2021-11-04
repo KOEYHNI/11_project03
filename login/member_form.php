@@ -75,6 +75,17 @@
   <header> 
       <?php include "../main/header.php";?>
   </header> 
+<?php
+  if ($userid )
+  {
+    echo("<script>
+        alert('로그아웃 후 이용해주세요!');
+         history.go(-1)
+        </script>
+      ");
+    exit;
+  }
+?>  
   <section> 
       <div id="main_img_bar"> 
           <img src="../main/img/main_img.png"> 
