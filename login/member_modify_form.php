@@ -53,8 +53,8 @@
 			       	</div>
 			       	<div class="clear"></div>
 <?php
-if ($userid == "admin") {
-				echo "<script>alert(\"admin에서는 비밀번호를 수정할 수 없습니다!\");</script>";
+if ($userlevel==1) {
+				echo "<script>alert(\"관리자 아이디에서는 비밀번호를 수정할 수 없습니다!\");</script>";
 			    echo "	<div class='form'>
 				        <div class='col1'>비밀번호</div>
 				        <div class='col2'>

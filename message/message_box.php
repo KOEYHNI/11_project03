@@ -130,7 +130,7 @@
 			}
 			else
 			{
-				echo"<li><a href='messagx_box.php?mode=$mode$page=$i'> $i </a></li>";
+				echo "<li> <a href='message_box.php?mode=$mode&page=$i'> $i </a> <li>";
 			}
 	}
    	

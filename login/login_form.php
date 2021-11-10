@@ -23,7 +23,7 @@
 	    		<div id="login_form">
           		<form  name="login_form" method="post" action="login.php">		       	
                   	<ul>
-                    <li><input type="text" name="id" placeholder="아이디" value="admin"></li>
+                    <li><input type="text" name="id" placeholder="아이디" value="koeyhni"></li>
                     <li><input type="password" id="pass" name="pass" placeholder="비밀번호" value="1234"></li> <!-- pass -->
                   	</ul>
                   	<div id="login_btn">
